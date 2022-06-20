@@ -9,3 +9,8 @@ audi = {
   "year": 2005,
   "color": 'white',
 }
+
+def show_object_values(object:dict):
+  return list(object.values())
+
+print(show_object_values(audi))
